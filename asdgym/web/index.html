@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <link href="CSS.css" rel="stylesheet" type="text/css">
+        <title>STRONG GYM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Bienvenido a la creación de tu rutina personalizada de Strong Gym!</div>
+        <form action="RutinaCliente">
+            
+            <div>Comunicanos tu nombre</div>
+            <div><input name="nombre" id="nombre"></div> 
+            <div>¿Cuántos años tienes?</div>
+            <div><input name="edad" id="edad"></div>
+            <div>¿Cuanto estás pesando?</div>
+            <div><input name="peso" id="peso"></div>
+            <div>¿Cuanto mides?</div>
+            <div><input name="altura" id="altura"></div>
+            <div>¿Cuantos días tienes disponible para entrenar? (de 1 a 7)</div>
+            <select name="dias" id="dias">
+                <option value="1">1 dia</option>
+                <option value="2">2 dias</option>
+                <option value="3">3 dias</option>
+                <option value="4">4 dias</option>
+                <option value="5">5 dias</option>
+                <option value="6">6 dias</option>
+                <option value="7">7 dias</option>
+            </select>
+            <div>¿Cuál es tu objetivo al entrar al gimnasio?</div>
+            <select name="objetivo" id="objetivo">
+                <option value="1">Ganar masa muscular</option>
+                <option value="2">Bajar peso y tonificar musculo</option>
+                <option value="3">Aumentar mi fuerza</option>
+            </select>
+            <input type="submit">
+        </form> 
+        <a href="inicio.java">Entra a este link</a>
+    </body>
+</html>
